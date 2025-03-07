@@ -4,8 +4,7 @@ class AppListTile extends StatelessWidget {
   final String title;
   final String subtitle;
 
-  AppListTile({super.key, required this.title, required this.subtitle});
-  // Firestore Access
+  const AppListTile({super.key, required this.title, required this.subtitle});
 
   @override
   Widget build(BuildContext context) {
